@@ -1,0 +1,78 @@
+{
+  "name": "mural",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@nkyo/scenify-sdk": "^0.3.4",
+    "@reduxjs/toolkit": "^1.6.2",
+    "@types/css-font-loading-module": "^0.0.6",
+    "@types/i18next": "^13.0.0",
+    "@types/react-router-dom": "^5.1.8",
+    "@types/styletron-engine-atomic": "^1.1.1",
+    "@types/styletron-react": "^5.0.3",
+    "@types/styletron-standard": "^2.0.2",
+    "axios": "^0.21.1",
+    "baseui": "^10.1.1",
+    "craco": "^0.0.3",
+    "fabric": "^4.5.1",
+    "nanoid": "^3.1.22",
+    "react": "^17.0.2",
+    "react-colorful": "^5.4.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.17.5",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "redux-persist": "^6.0.0",
+    "resize-observer-polyfill": "^1.5.1",
+    "styletron-engine-atomic": "^1.4.8",
+    "styletron-react": "^6.0.1",
+    "use-debounce": "^7.0.0",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "export SET NODE_OPTIONS=--openssl-legacy-provider && craco start",
+    "build": "export SET NODE_OPTIONS=--openssl-legacy-provider && craco build",
+    "test": "craco test",
+    "eject": "craco eject",
+    "format": "prettier --write src"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/fabric": "^4.5.2",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "17.0.44",
+    "@types/react-dom": "17.0.17",
+    "@types/react-color": "^3.0.4",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.2"
+  },
+  "overrides": {
+    "@types/react": "17.0.44"
+  },
+  "resolutions": {
+    "@types/react": "17.0.44"
+  }
+}
